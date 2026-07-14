@@ -1,0 +1,9 @@
+{
+  "name": "bakify-waitlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bakify pre-launch waitlist page + gated resource hub (guide, state cottage food law, labeling checklist), deployable on Vercel.",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakify — Join the Founding Waitlist</title>
+<meta name="description" content="Bakify is the marketplace for cottage & home bakers. Join the founding waitlist for a free Cottage Bakery Starter Guide, state-by-state cottage food law, labeling checklist, and 3 months free at launch.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo-row">
+      <div class="logo-badge">🍞</div>
+      <div class="logo-word">Bakify</div>
+    </div>
+
+    <div class="kicker">Founding Baker Waitlist</div>
+    <h1>Turn your home baking<br>into a <span>real business.</span></h1>
+    <p class="sub">
+      Bakify is the marketplace built for cottage &amp; home bakers. Join the
+      waitlist and get instant access to our free Cottage Bakery Starter
+      Guide, cottage food law for all 50 states + D.C., and a labeling
+      checklist — plus early access and 3 months free when we launch.
+    </p>
+
+    <form id="waitlist-form">
+      <input type="email" id="email-input" placeholder="you@email.com" required>
+      <button type="submit" id="submit-btn">Get free access</button>
+    </form>
+    <p class="microcopy" id="microcopy">No spam, ever. One founding-baker email a week, max.</p>
+    <p class="error-msg" id="error-msg"></p>
+
+    <div class="perks">
+      <div class="perk">
+        <div class="icon">📘</div>
+        <div class="title">Free Starter Guide</div>
+        <div class="desc">How to start a legal home bakery — pricing, labeling, and your state's cottage food law, explained simply.</div>
+      </div>
+      <div class="perk">
+        <div class="icon">🎟️</div>
+        <div class="title">3 Months Free</div>
+        <div class="desc">Founding bakers get their first 3 months on Bakify free when we launch.</div>
+      </div>
+      <div class="perk">
+        <div class="icon">⏱️</div>
+        <div class="title">Early Access</div>
+        <div class="desc">Skip the line — founding waitlist members get in before the public launch.</div>
+      </div>
+    </div>
+
+    <!-- Resource hub — revealed after a successful signup -->
+    <div id="resources">
+      <div class="unlock-banner">🎉 You're in! Your free resources are unlocked below — we've also emailed you a copy.</div>
+
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="guide">Starter Guide</button>
+        <button class="tab-btn" data-tab="laws">Cottage Food Law by State</button>
+        <button class="tab-btn" data-tab="labels">Labeling Checklist</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-guide"></div>
+
+      <div class="tab-panel" id="tab-laws">
+        <div class="disclaimer-box">
+          This is educational, not legal advice — Bakify is not a law firm. Cottage food law changes often;
+          confirm current requirements with your state's Department of Agriculture or Health before relying on this.
+        </div>
+        <div class="state-picker">
+          <select id="state-select"></select>
+        </div>
+        <div id="state-card-container"></div>
+      </div>
+
+      <div class="tab-panel" id="tab-labels"></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="founder-note">
+      <strong>Why we're building this —</strong> we're three college founders who
+      kept meeting talented home bakers with no easy way to sell legally and
+      locally. Bakify fixes that. We haven't launched yet — we're finishing the
+      product now — but the waitlist is where the first "Founding Bakers"
+      get named, guide included.
+    </div>
+
+    <footer>
+      Follow along on Instagram <a href="https://instagram.com/bakifyapp" target="_blank">@bakifyapp</a>
+    </footer>
+  </div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
