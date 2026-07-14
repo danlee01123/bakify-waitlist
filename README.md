@@ -50,3 +50,15 @@ The correct server file belongs only at `api/subscribe.js`.
   `https://bakify-waitlist.vercel.app/resources?verified=1`
 
 See `KIT_EMAIL_COPY.md` for polished copy.
+
+
+## Platform-aligned content update
+
+The guides now encourage bakers to start small, then position Bakify as the
+place to grow. The public copy emphasizes local discovery, storefronts,
+checkout and payments, pickup scheduling, state-aware listings, and label
+generation.
+
+The guide no longer treats building a large social media audience as a required
+step. Social media is described only as an optional bridge before Bakify
+launches.

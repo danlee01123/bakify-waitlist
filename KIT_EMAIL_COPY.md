@@ -2,7 +2,7 @@
 
 ## Subject
 
-Your free Bakify home bakery resources are ready
+Your free home bakery guide from Bakify is ready
 
 ## Body
 
@@ -10,38 +10,30 @@ Hi there,
 
 Thanks for joining the Bakify founding waitlist.
 
-Bakify is a new marketplace designed to help cottage and home bakers get
-discovered by local customers, receive orders more easily, and grow their
-businesses with confidence.
+Bakify is a marketplace built for cottage and home bakers. We want more people
+to feel confident starting their own bakery, without having to manage the whole
+business through social media messages, payment apps, and scattered calendars.
 
-We created a free resource library to help you get started. Inside, you will
-find:
+Your free resource library includes:
 
-• A step-by-step guide to starting a legal home bakery  
+• A practical guide to starting a legal home bakery  
 • A cottage food law reference for all 50 states and Washington, D.C.  
-• A practical labeling checklist for your baked goods  
+• A labeling checklist to help you prepare accurate product information  
 
-Click the button below to open your resources.
+Bakify is launching soon to help bakers get discovered by local customers,
+receive orders and payments, offer clear pickup windows, and create product
+labels from their listing information.
 
-We are glad you are here and look forward to building Bakify with home bakers
-like you.
+Click below to open your resources.
+
+We are excited to have you with us.
 
 The Bakify Team
 
 ## Button text
 
-Open my free resource library
+Open my Bakify resource library
 
 ## Redirect URL
 
 https://bakify-waitlist.vercel.app/resources?verified=1
-
-## Recommended setting
-
-For the easiest experience, turn Auto-confirm new subscribers ON. The resource
-email will still be sent, but people do not have to complete a separate
-confirmation step before becoming active subscribers.
-
-For stronger protection against fake or mistyped addresses, turn Auto-confirm
-new subscribers OFF. In that case, the email button both confirms the address
-and opens the resource library.

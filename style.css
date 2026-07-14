@@ -338,3 +338,121 @@ button,input,select{font:inherit}
   color:#638060;
   font-size:13px;
 }
+
+
+/* Bakify platform-aligned guide elements */
+.bakify-callout{
+  margin:28px 0;
+  padding:20px 22px;
+  border:1px solid #f0b37c;
+  border-radius:16px;
+  background:#fff4e9;
+  color:var(--ink-700);
+}
+.bakify-callout strong{
+  display:block;
+  margin-bottom:6px;
+  color:var(--ink-950);
+  font-size:16px;
+}
+.bakify-callout p{
+  margin:0;
+  color:var(--ink-600);
+  font-size:15px;
+  line-height:1.65;
+}
+.bakify-launch-section{
+  margin-top:78px;
+  padding:48px;
+  border-radius:28px;
+  background:var(--ink-950);
+  color:var(--white);
+}
+.launch-heading{
+  display:flex;
+  justify-content:space-between;
+  gap:34px;
+  align-items:flex-start;
+  margin-bottom:34px;
+}
+.launch-heading h2{
+  max-width:620px;
+  margin:9px 0 12px;
+  color:var(--white);
+  font-size:36px;
+  line-height:1.12;
+  letter-spacing:-.035em;
+}
+.launch-heading p{
+  max-width:660px;
+  margin:0;
+  color:#d8cdc6;
+  font-size:16px;
+  line-height:1.65;
+}
+.founding-badge{
+  flex:0 0 auto;
+  padding:10px 14px;
+  border:1px solid rgba(255,255,255,.2);
+  border-radius:999px;
+  background:rgba(255,255,255,.08);
+  color:#ffd5b5;
+  font-size:12px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+.launch-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+.launch-card{
+  padding:25px;
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:18px;
+  background:rgba(255,255,255,.055);
+}
+.launch-icon{
+  display:block;
+  margin-bottom:20px;
+  font-size:29px;
+}
+.launch-card h3{
+  margin:0 0 9px;
+  color:var(--white);
+  font-size:20px;
+}
+.launch-card p{
+  margin:0;
+  color:#d8cdc6;
+  font-size:14px;
+  line-height:1.6;
+}
+.launch-note{
+  margin-top:18px;
+  padding:22px 24px;
+  border-radius:17px;
+  background:linear-gradient(135deg,rgba(234,124,43,.22),rgba(217,102,26,.1));
+}
+.launch-note strong{
+  display:block;
+  color:#ffd5b5;
+  font-size:17px;
+  margin-bottom:5px;
+}
+.launch-note p{
+  margin:0;
+  color:#e6d9d0;
+  font-size:14px;
+  line-height:1.6;
+}
+@media(max-width:800px){
+  .bakify-launch-section{padding:38px 30px}
+  .launch-heading{flex-direction:column}
+  .launch-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .bakify-launch-section{padding:30px 22px;border-radius:22px}
+  .launch-heading h2{font-size:30px}
+}
