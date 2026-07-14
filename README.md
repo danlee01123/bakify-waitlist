@@ -62,3 +62,28 @@ generation.
 The guide no longer treats building a large social media audience as a required
 step. Social media is described only as an optional bridge before Bakify
 launches.
+
+
+## Waitlist benefits update
+
+The landing page now presents three clear reasons to join:
+
+- Free home bakery guides delivered by email
+- A 0% Bakify platform fee for the first three months after launch
+- Early launch notification and storefront access
+
+Standard payment processing fees still apply during the promotional period.
+The landing headline uses the same lighter visual weight as the resource
+library heading.
+
+
+## Discount wording and email categorization
+
+The waitlist now says "Discounted launch rates" instead of promising a 0%
+Bakify fee.
+
+The recommended Kit confirmation email is intentionally transactional. It
+delivers the resource library and briefly explains Bakify without including
+discount language. This reduces promotional signals, although Gmail still
+controls category placement and may place automated messages in Promotions or
+Updates.
